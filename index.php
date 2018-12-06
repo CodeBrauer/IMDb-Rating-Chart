@@ -1,5 +1,5 @@
 <?php
-define('OMDBAPI_API_KEY', 'b6775c8');
+define('OMDBAPI_API_KEY', '');
 
 function curl_get_contents($url) {
     if (!function_exists('curl_init')) { return file_get_contents($url); } // fallback
@@ -82,6 +82,7 @@ if (isset($_GET['s'])) {
             <form action="/" method="get" class="form-inline">
                 <input type="search" name="s" id="s" placeholder="Your TV series like Game of Thrones, Scubs…"  class="form-control">
                 <input type="submit" value="Search" class="btn btn-primary">
+                <small>If the search does not work, you can also try the IMDb ID (like "tt6468322")</small>
             </form>
         </div>
         <br>
