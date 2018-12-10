@@ -1,0 +1,9 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^2.5",
+        "digitalnature/php-ref": "^1.2",
+        "catfan/medoo": "^1.6",
+        "slim/slim": "^3.0",
+        "pavlakis/slim-cli": "^1.1"
+    }
+}
