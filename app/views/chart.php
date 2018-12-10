@@ -15,4 +15,8 @@
         <br>
         <div id="chart" style="height: 800px; min-width: 510px; max-width: 1000px; margin: 0 auto"></div>
     </div>
+    <script type="text/javascript">
+        var data         = <?= json_encode($data) ?>;
+        var series_title = '<?= $series_title ?>';
+    </script>
 <?php require __DIR__ . DIRECTORY_SEPARATOR . 'footer.php'; ?>
