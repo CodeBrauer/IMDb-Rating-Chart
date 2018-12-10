@@ -7,6 +7,8 @@ require_once 'app/OMDB.php';
 use IMDBRC\View;
 use IMDBRC\Helper;
 
+define('APPPATH', str_replace($_SERVER['DOCUMENT_ROOT'], '', dirname(__FILE__)) . '/');
+
 (new Dotenv\Dotenv(__DIR__))->load();
 
 $db = new Medoo\Medoo([
