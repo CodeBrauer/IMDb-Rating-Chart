@@ -80,7 +80,7 @@ if (isset($_GET['s'])) {
                 </p>
             </header>
             <form action="/" method="get" class="form-inline">
-                <input type="search" name="s" id="s" placeholder="Your TV series like Game of Thrones, Scubs…"  class="form-control">
+                <input type="search" name="s" id="s" placeholder="Your TV series like Game of Thrones, Scrubs…"  class="form-control">
                 <input type="submit" value="Search" class="btn btn-primary">
                 <small>If the search does not work, you can also try the IMDb ID (like "tt6468322")</small>
             </form>
